@@ -3,7 +3,7 @@ Feature:my_first
 
     Given que estou na tela principal
       When eu clicar em entrar
-      And eu preencher o campo CPF com "35679304864"
+      And eu preencher o campo CPF com "01320081142"
       And eu preencher o campo Senha com "147258"
       And eu clicar em Continuar
         Then a tela de boas vindas sera exibida

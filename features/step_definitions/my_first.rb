@@ -1,4 +1,4 @@
-#encoding: UTF-8
+﻿#encoding: UTF-8
 Given(/^que estou na tela principal$/) do
   element_exists("* text:'Bem-vindo à Dotz'")
 end
@@ -8,7 +8,7 @@ When(/^eu clicar em entrar$/) do
 end
 
 When(/^eu preencher o campo CPF com "(.*?)"$/) do |arg1|
-  enter_text "* id:'identifier_hint'", "35679304864"
+  enter_text "* id:'identifier_hint'", "01320081142"
 end
 
 When(/^eu preencher o campo Senha com "(.*?)"$/) do |arg1|
